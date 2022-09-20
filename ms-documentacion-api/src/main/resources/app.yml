@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ms-documentacion-api
+  jackson:
+    default-property-inclusion: non_null
+    property-naming-strategy: SNAKE_CASE
+
